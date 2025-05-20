@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mini Project1 : Daily Planner</title>
+    <title>Mini Project 1: Daily Planner</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -11,8 +11,38 @@
         <h1>Daily Planner</h1>
     </header>
 
-   
+    <main class="planner-container">
+        <section class="planner-add-task">
+            <form id="planner-form">
+                <input
+                    type="text"
+                    id="planner-input"
+                    placeholder="Add a new task here..."
+                    required
+                />
+                <button type="submit" id="planner-add-btn">Add Task</button>
+            </form>
+        </section>
 
-    <script type="module" src="app.js"></script>
+        <section class="planner-search">
+            <input
+                type="text"
+                id="planner-search"
+                placeholder="Search tasks here..."
+            />
+        </section>
+
+        <section class="planner-tasks">
+            <ul id="planner-task-list"></ul>
+        </section>
+
+        <div class="planner-actions">
+            <button id="planner-clear-all">Clear All</button>
+        </div>
+    </main>
+
+    <button id="planner-back-to-top" title="Go to top">↑</button>
+
+    <script src="app.js"></script>
 </body>
 </html>

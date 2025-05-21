@@ -1,4 +1,4 @@
-# 📝 Daily Planner - Mini Project 1 BY ALIPA
+# 📝 Daily Planner - Mini Project 1 ( BY ALIPA )
 
 A simple web app to help you plan your daily tasks. You can add, complete, delete, and search your tasks. All tasks are saved in your browser using localStorage.
 
